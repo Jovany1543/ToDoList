@@ -1,6 +1,6 @@
-## StarWars Blog
+## Task Organizer
 
-A front-end interactive web app that consumes a third party API, and allows users to find information about the characters, vehicles and planets featured in the Star Wars universe. The use of React JS allows the user to have a dynamic and seamlessly experience. It also allows for the code to remain DRY.
+This full stack web application makes use of React JS to enable the user to organize tasks the form of a list. With this app users can improve productivity by keeping track of the status for each task. They can CRUD them as needed. Registered users have the ability to save their lists.
 
 Technologies used used: HTML5, CSS, Javascript, React.js, Redux.
 
