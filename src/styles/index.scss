@@ -1,7 +1,12 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+body{
+    background-image: url(https://i.ibb.co/JFKfYsB/High-angle-view-of-businessman-desk-with-organizer-pen-glasses-and-green-plant-Top-view-of-office-su.jpg);
+    background-size: cover;
+}
 .todo-wrap{
     border: 1px solid gray;
+    background-color: white;
     input{
         border: none;
         width: 100%;
