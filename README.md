@@ -7,7 +7,7 @@ Technologies used used: HTML5, CSS, Javascript, React.js, Redux.
 Website preview:
 
 <p align="center">
-<a href="https://www.loom.com/share/296f7a1f9cb549dcab8eefd5f05cebb1"><img src="https://www.loom.com/share/296f7a1f9cb549dcab8eefd5f05cebb1" /></a>
+<a href="https://www.loom.com/share/296f7a1f9cb549dcab8eefd5f05cebb1"><img src="https://media.giphy.com/media/dnFJ8lafmDQpnFhx85/giphy.gif" /></a>
 </p>
 
 ### To start up:
