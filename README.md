@@ -2,7 +2,7 @@
 
 This full stack web application makes use of React JS to enable the user to organize tasks the form of a list. With this app users can improve productivity by keeping track of the status for each task. They can CRUD them as needed. Registered users have the ability to save their lists.
 
-Technologies used used: HTML5, CSS, Javascript, React.js, Redux.
+Technologies used used: HTML5, CSS, Javascript, React.js.
 
 Website preview:
 
