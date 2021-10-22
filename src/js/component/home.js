@@ -15,6 +15,10 @@ export function ToDoList() {
 		}
 	};
 
+	const removeTodo = index => {
+		setMyArr(myArr.filter((item, i) => index != i));
+	};
+
 	return (
 		<div className="container">
 			<h1>todos</h1>
@@ -29,9 +33,12 @@ export function ToDoList() {
 				</li>
 
 				{myArr.map((item, index) => (
-					<li key={index}>{item.label}</li>
+					<li key={index}>
+						{item.label}{" "}
+						<button onClick={() => removeTodo(index)}>X</button>
+					</li>
 				))}
-				<li>
+				<li className="item-counter">
 					{myArr.length > 0
 						? `${myArr.length} Items`
 						: "No tasks, add a task"}
