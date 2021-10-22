@@ -33,20 +33,19 @@ export function ToDoList() {
 				</li>
 
 				{myArr.map((item, index) => (
-					<li key={index}>
+					<li key={index} className="spacing">
 						{item.label}{" "}
-						<button onClick={() => removeTodo(index)}>X</button>
+						<span onClick={() => removeTodo(index)}>X</span>
 					</li>
 				))}
-				<li className="item-counter">
-					{myArr.length > 0
+				<li className="spacing">
+					{myArr.length > 1
 						? `${myArr.length} Items`
+						: myArr.length > 0
+						? `${myArr.length} Item`
 						: "No tasks, add a task"}
 
-					<span
-						role="button"
-						tabIndex="0"
-						onClick={() => setMyArr([])}>
+					<span role="span" tabIndex="0" onClick={() => setMyArr([])}>
 						Clear list
 					</span>
 				</li>
